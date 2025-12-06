@@ -1,0 +1,4 @@
+------------- Keybinds --------------
+
+Aimbot - "Mouse1"
+Trigger - "Mouse4"
