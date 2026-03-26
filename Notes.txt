@@ -1,4 +1,5 @@
 ------------- Keybinds --------------
 
-Aimbot - "Mouse1"
-Trigger - "Mouse4"
+Aimbot - "Mouse1" | (Automatic Penetration On)
+Trigger Aim - "Mouse4"
+Visuals - "F" | Toggle
