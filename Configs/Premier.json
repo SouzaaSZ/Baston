@@ -117,7 +117,7 @@
         "smg_recoil_y": 2.0,
         "smg_replace": true,
         "smg_smooth": 15.0,
-        "smoke_check": true,
+        "smoke_check": false,
         "team_check": true,
         "visible_check": true
     },
@@ -127,6 +127,9 @@
         "menuScale": 1.0,
         "menuScaleESP": true,
         "mouse": true,
+        "scoreboard": true,
+        "scoreboard_x": 0.0,
+        "scoreboard_y": 697.0,
         "vsync": true
     },
     "triggerbot": {
@@ -143,7 +146,7 @@
         "delay_max": 35.0,
         "delay_min": 30.0,
         "dynamic_hitchance": true,
-        "enable": true,
+        "enable": false,
         "heavy_delay_max": 35.0,
         "heavy_delay_min": 30.0,
         "heavy_hit_chance": 40.0,
@@ -155,7 +158,7 @@
         "heavy_pistol_refire": 0.0,
         "heavy_refire": 0.0,
         "hit_chance": 50.0,
-        "key": 658,
+        "key": -1,
         "pistol_delay_max": 35.0,
         "pistol_delay_min": 30.0,
         "pistol_hit_chance": 40.0,
@@ -217,7 +220,7 @@
             "r": 1.0
         },
         "activation_modes": 0,
-        "ammo_bar": false,
+        "ammo_bar": true,
         "ammo_bar_alpha": 1.0,
         "box": false,
         "c4_planted": true,
@@ -282,6 +285,13 @@
             "r": 0.6313729882240295
         },
         "flags_enabled": true,
+        "footstep_esp": false,
+        "footstep_espColor": {
+            "a": 0.8235290050506592,
+            "b": 0.19607800245285034,
+            "g": 0.0,
+            "r": 1.0
+        },
         "grenade_tracer": true,
         "grenade_tracerColor": {
             "a": 0.784313976764679,
@@ -302,10 +312,10 @@
         "healthbatype": 0,
         "inferno_esp": true,
         "inferno_espColor": {
-            "a": 0.2549020051956177,
-            "b": 0.0,
-            "g": 0.0,
-            "r": 1.0
+            "a": 0.19607800245285034,
+            "b": 0.18039199709892273,
+            "g": 0.6823530197143555,
+            "r": 0.8941180109977722
         },
         "obs_bypass": false,
         "offscreen_arrows": true,
@@ -317,8 +327,8 @@
         },
         "offscreen_arrows_dist": 40.0,
         "radar": false,
-        "radar_alpha": 1.0,
-        "radar_dotSize": 5.199999809265137,
+        "radar_alpha": 0.75,
+        "radar_dotSize": 3.700000047683716,
         "radar_enemyColor": {
             "a": 1.0,
             "b": 0.137254998087883,
@@ -326,13 +336,13 @@
             "r": 0.8823530077934265
         },
         "radar_pos_x": 30.0,
-        "radar_pos_y": 20.0,
-        "radar_range": 1097.0,
+        "radar_pos_y": 23.0,
+        "radar_range": 2398.0,
         "radar_rotate": true,
         "radar_showEnemy": true,
         "radar_showTeam": false,
-        "radar_size": 297.0,
-        "radar_size_y": 228.0,
+        "radar_size": 300.0,
+        "radar_size_y": 224.0,
         "radar_teamColor": {
             "a": 1.0,
             "b": 0.1333329975605011,
@@ -368,7 +378,7 @@
         "spec_list": true,
         "spread_circle": false,
         "spread_circleColor": {
-            "a": 0.6000000238418579,
+            "a": 0.23529399931430817,
             "b": 0.11764699965715408,
             "g": 0.11764699965715408,
             "r": 0.11764699965715408
